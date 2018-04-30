@@ -4,8 +4,17 @@
              xmlns:local="clr-namespace:NavigationPages"
              x:Class="NavigationPages.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <Label Text="Esto Es Navigation Pages"></Label>
+        <Button
+            Text="Pagina2"
+
+
+            Clicked="SiguieteButton_Clicked">
+
+            
+          </Button>
+        
+    </StackLayout>
 
 </ContentPage>

@@ -12,6 +12,12 @@ namespace NavigationPages
 		public MainPage()
 		{
 			InitializeComponent();
+            
+
 		}
+        public async void SiguieteButton_Clicked(Object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new Pagina2());
+        }
 	}
 }

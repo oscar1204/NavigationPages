@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationPages.Pagina3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Esta Es la Pagina 3"></Label>
+            <Button 
+                x:Name="btninicio"
+                Text="Inicio"></Button>
+            <Button 
+                x:Name="btnAtras"
+                Text="Anterior"></Button>
+            <Button
+                x:Name="btnModa1"
+                Text="Siguiente"></Button>
+               
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
